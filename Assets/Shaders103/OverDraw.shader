@@ -27,7 +27,6 @@
 			struct v2f
 			{
 				float4 vertex : SV_POSITION;
-				float depth : DEPTH;
 			};
 
 			v2f vert (appdata v)
